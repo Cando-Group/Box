@@ -1808,7 +1808,7 @@ dl, ol, ul {
 	height: auto;
 }
 
-#contact-form .button {
+index.html#contact-form .button {
 	margin: 0;
 }
 
@@ -1846,7 +1846,7 @@ button, input, textarea:focus {
     display: block;
 }
 
-.map-area #contact-map{
+.map-area index.html#contact-map{
     position: relative;
     width: 100%;
     height: 500px;

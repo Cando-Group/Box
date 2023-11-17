@@ -182,7 +182,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 $(function() {
 
 	// Get the form.
-	var form = $('#contact-form');
+	var form = $('index.html#contact-form');
 
 	// Get the messages div.
 	var formMessages = $('.form-message');
@@ -210,7 +210,7 @@ $(function() {
 			$(formMessages).text(response);
 
 			// Clear the form.
-			$('#contact-form input,#contact-form textarea').val('');
+			$('index.html#contact-form input,index.html#contact-form textarea').val('');
 		})
 		.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.

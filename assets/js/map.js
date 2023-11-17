@@ -193,7 +193,7 @@
 					styles: styles
 				};
 				var initMap = function() {
-					var contactdata = $('#contact-map').data('content');
+					var contactdata = $('index.html#contact-map').data('content');
 					var map = new google.maps.Map(document.getElementById("contact-map"), mapOptions);
 					var bounds = new google.maps.LatLngBounds();
 					var myIcon = new google.maps.MarkerImage("assets/img/map_pin.png", null, null, null, new google.maps.Size(50, 52));
